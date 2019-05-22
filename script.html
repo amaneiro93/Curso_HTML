@@ -1,0 +1,9 @@
+<script>
+    $(document).ready(function () {
+        var cantidadElemento = 10;
+        for(var i = 0; i < cantidadElemento; i++){
+            $("#contenedor").append("<br>");
+            $("#contenedor").append("<select name='elemento"+i+"' id='elemento"+i+"'></select>");
+        }
+    });
+</script>
